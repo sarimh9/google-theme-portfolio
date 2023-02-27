@@ -18,7 +18,9 @@ export default function SearchPage() {
       <div className="image">
         <img src={googleLogo} alt="logo" />
       </div>
-      <SearchArea />
+      <div className="search-area">
+        <SearchArea />
+      </div>
       <div className="search-buttons">
         {/* <button className="search-button btn"> */}
         <Link className="search-button btn" to={"/portfolio"}>
