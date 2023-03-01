@@ -7,6 +7,7 @@ import { ReactComponent as VideoSVG } from "../Assets/video.svg";
 import { ReactComponent as BookSVG } from "../Assets/book.svg";
 import { ReactComponent as MoreSVG } from "../Assets/more.svg";
 import { ReactComponent as NewsSVG } from "../Assets/news.svg";
+import "../Styles/topSection.css";
 
 export default function TopSection() {
   let myStyle = {

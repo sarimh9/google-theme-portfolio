@@ -1,11 +1,13 @@
 import React from "react";
+import BottomSection from "./BottomSection";
 import TopSection from "./TopSection";
-import "../Styles/PortfolioPage.css";
+// import "../Styles/PortfolioPage.css";
 
 export default function PortfolioPage() {
   return (
     <div className="portfolio-page-parent">
       <TopSection />
+      <BottomSection />
     </div>
   );
 }

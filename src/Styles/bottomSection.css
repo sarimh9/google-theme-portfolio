@@ -1,0 +1,100 @@
+.bottom-section {
+  display: flex;
+  height: fit-content;
+}
+
+/** ==================== Main Content ==================== */
+.main-content {
+  display: inline-block;
+  width: 700px;
+  min-width: 700px;
+  padding-right: 40px;
+}
+.results-size {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+}
+.did-you-mean-text {
+  color: #ea4335;
+}
+.my-name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1a0dab;
+}
+.accordion {
+  margin-top: 20px;
+}
+.accordion > h2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+/** ==================== Side Content ==================== */
+.side-content {
+  margin-top: 40px;
+  padding: 20px;
+  padding-right: 80px;
+  display: inline-block;
+  width: 500px;
+  min-width: 500px;
+  border: none;
+  border-left: 1px solid lightgray;
+}
+.side-content > h4 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #202124;
+}
+.side-content > p {
+  word-wrap: break-word;
+  margin: 15px 30px 0px 0px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #4d5156;
+  line-height: 22px;
+}
+.horizontal-line {
+  height: 1px;
+  background-color: lightgray;
+  width: 90%;
+  margin: 10px 0;
+}
+.details {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4d5156;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+  font-size: 15px;
+}
+.profiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 40px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.profile > img {
+  height: 32px;
+  width: 32px;
+  margin: 10px 0;
+}
+.github > img {
+  height: 40px;
+  width: 40px;
+}
+.similar-searches > .search-icon {
+  height: 50px;
+}
