@@ -46,17 +46,16 @@ export default function SideContent() {
       <br />
       <div className="similar-searches">
         <ul>
-          <SearchSVG />
-          &emsp; Profile of a hard-working person <br />
-          <br />
-          <SearchSVG />
-          &emsp; Example of Dedication <br />
-          <br />
-          <SearchSVG />
-          &emsp; Ambitious Person <br />
-          <br />
-          <SearchSVG />
-          &emsp; Motivated Personalities
+          {/* <div className="related-searches-box-item">
+            <SearchSVG /> Profile of a hard-working person <br />
+          </div> */}
+          <SearchSVG /> &emsp; Profile of a hard-working person
+          <br /> <br />
+          <SearchSVG /> &emsp; Example of Dedication
+          <br /> <br />
+          <SearchSVG /> &emsp; Ambitious Person
+          <br /> <br />
+          <SearchSVG /> &emsp; Motivated Personalities
         </ul>
       </div>
     </div>

@@ -19,3 +19,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.not-available {
+  display: none;
+}
+@media (max-width: 1000px) {
+  /* Styles for devices with width 1000px and BELOW */
+  .search-page-parent {
+    display: none;
+  }
+  .not-available {
+    display: flex;
+    height: 99vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+}

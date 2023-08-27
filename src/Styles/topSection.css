@@ -43,9 +43,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 150px;
-  margin-bottom: 6px;
-  margin-left: 310px;
+  /* width: 150px; */
+  width: 17.5%;
+  /* margin-bottom: 6px;*/
+  margin-left: 18vw;
+}
+.icons > div {
+  margin-right: 20px;
+  cursor: pointer;
 }
 .dot-grid-2 {
   height: 24px;

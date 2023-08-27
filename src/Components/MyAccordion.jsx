@@ -14,12 +14,13 @@ export default function MyAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Goggles - A Search Engine</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            A responsive and fully functional search engine which is made with
+            ReactJS and Tailwind CSS. It can search the web for up to the minute
+            results, latest images, current live news and recent videos.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -29,12 +30,14 @@ export default function MyAccordion() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Full Stack Multi-To-Do Lists</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            SLorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            A full-stack web-based application for creating and maintaining
+            essential tasks as well as multiple lists. The backend is made using
+            NodeJS and ExpressJS. It uses MongoDB as a database to preserve the
+            data.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -45,12 +48,31 @@ export default function MyAccordion() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Book Listing Android App</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            SLorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Book Listing Android App allows the user to get a list of published
+            books on a given topic. The Google Books API is used in order to
+            fetch results, parse the JSON response, create a list based on that
+            data and display it to the user
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel4a-content"
+          id="panel4a-header"
+        >
+          <Typography>Google Chrome Extension</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Developed a "Dad Joke" google chrome extension using JavaScript to
+            give a new random joke every time the user clicks on the
+            extensionicon.
           </Typography>
         </AccordionDetails>
       </Accordion>
